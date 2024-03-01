@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-image: url('https://media.istockphoto.com/vectors/sky-and-clouds-background-sky-and-cloud-with-blue-color-cartoon-vector-id1084416182?b=1&k=20&m=1084416182&s=170667a&w=0&h=pzBz_ReNWF8vTmoEnAcr1tLSLzMfYjYeH8c_hxz3KVI=');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #e3efff;
+  border-radius: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+  border: solid rgb(22, 45, 122) 2px;
+  border-radius: 22px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#weatherInfo {
+  margin-top: 20px;
+} 
